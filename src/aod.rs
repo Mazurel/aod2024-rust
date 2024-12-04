@@ -11,7 +11,7 @@ pub fn solution_input_to_list_of_strings(input_path: &str) -> SResult<Vec<String
 
     Ok(result
         .split("\n")
-        .map(|substr| substr.to_string())
+        .map(|substr| substr.trim().to_string())
         .filter(|substr| substr.len() > 0)
         .collect())
 }
