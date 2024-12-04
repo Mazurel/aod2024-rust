@@ -2,6 +2,9 @@
 
 This repository contains source code for Advent of Code 2024, written in Rust.
 
+I have tried to minimize dependecies, so some solutions are more complicated due to lack
+of built in libraries, like `regex`.
+
 To build the code:
 
 ```bash
